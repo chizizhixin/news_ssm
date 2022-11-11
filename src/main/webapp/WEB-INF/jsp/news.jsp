@@ -3,7 +3,7 @@
 <%@ page import="com.cdvtc.news.dao.impl.*" %>
 <%@ page import="com.cdvtc.news.model.*" %>
 <%@ page import="java.util.*" %>
-<%@ page import="com.cdvtc.news.util.CommentUtil" %><%--
+<%@ page import="com.cvtc.news.util.CommentUtil" %><%--
   Created by IntelliJ IDEA.
   User: zhao
   Date: 2021/12/15

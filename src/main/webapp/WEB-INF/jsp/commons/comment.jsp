@@ -1,7 +1,7 @@
-<%@ page import="com.cdvtc.news.model.Comment" %>
+<%@ page import="com.cvtc.news.model.Comment" %>
 <%@ page import="java.util.Map" %>
-<%@ page import="com.cdvtc.news.util.CommentUtil" %>
-<%@ page import="com.cdvtc.news.util.TimeFormat" %>
+<%@ page import="com.cvtc.news.util.CommentUtil" %>
+<%@ page import="com.cvtc.news.util.TimeFormat" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%--
   Created by IntelliJ IDEA.

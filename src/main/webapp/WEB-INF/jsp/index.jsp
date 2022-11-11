@@ -6,10 +6,10 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" pageEncoding="UTF-8" %>
-<%@ page import="com.cdvtc.news.dao.NewsDao" %>
-<%@ page import="com.cdvtc.news.dao.impl.NewsDaoImpl" %>
+<%@ page import="com.cvtc.news.dao.NewsDao" %>
+<%@ page import="com.cvtc.news.dao.impl.NewsDaoImpl" %>
 <%@ page import="java.util.List" %>
-<%@ page import="com.cdvtc.news.model.News" %>
+<%@ page import="com.cvtc.news.model.News" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html>
 <html lang="en">

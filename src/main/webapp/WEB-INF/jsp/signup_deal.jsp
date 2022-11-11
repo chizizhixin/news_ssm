@@ -1,9 +1,9 @@
-<%@ page import="com.cdvtc.news.model.User" %>
-<%@ page import="com.cdvtc.news.util.Md5Util" %>
+<%@ page import="com.cvtc.news.model.User" %>
+<%@ page import="com.cvtc.news.util.Md5Util" %>
 <%@ page import="java.text.DateFormat" %>
 <%@ page import="java.text.SimpleDateFormat" %>
-<%@ page import="com.cdvtc.news.dao.UserDao" %>
-<%@ page import="com.cdvtc.news.dao.impl.UserDaoImpl" %><%--
+<%@ page import="com.cvtc.news.dao.UserDao" %>
+<%@ page import="com.cvtc.news.dao.impl.UserDaoImpl" %><%--
   Created by IntelliJ IDEA.
   User: zhao
   Date: 2021/12/20

@@ -1,8 +1,8 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<%@ page import="com.cdvtc.news.dao.CategoryDao" %>
-<%@ page import="com.cdvtc.news.dao.impl.CategoryDaoImpl" %>
+<%@ page import="com.cvtc.news.dao.CategoryDao" %>
+<%@ page import="com.cvtc.news.dao.impl.CategoryDaoImpl" %>
 <%@ page import="java.util.List" %>
-<%@ page import="com.cdvtc.news.model.Category" %><%--
+<%@ page import="com.cvtc.news.model.Category" %><%--
   Created by IntelliJ IDEA.
   User: zhao
   Date: 2021/12/15

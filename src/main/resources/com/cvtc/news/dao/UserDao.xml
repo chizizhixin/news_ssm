@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.cvtc.news.dao.UserDao">
+
+
+
+    <select id="login" resultType="User">
+         select * from user where (account=#{account} or mobile=#{account} or email=#{account}) and password=#{password} and forbidden=false
+    </select>
+
+    <insert id="addUser">
+        insert into user(account, password, nickname, photo, birthday, email, mobile, regDate, forbidden) values(#{account}, #{password},#{nickname}, #{photo}, #{birthday}, #{email}, #{mobile}, now(), false)
+    </insert>
+
+    <select id="isUserExisted" resultType="java.lang.Boolean">
+        select EXISTS(select * from user where  ${key} = #{value} )
+    </select>
+
+</mapper>

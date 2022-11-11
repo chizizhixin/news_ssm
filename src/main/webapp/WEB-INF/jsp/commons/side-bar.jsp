@@ -1,6 +1,6 @@
-<%@ page import="com.cdvtc.news.dao.TagDao" %>
-<%@ page import="com.cdvtc.news.dao.impl.TagDaoImpl" %>
-<%@ page import="com.cdvtc.news.model.Tag" %>
+<%@ page import="com.cvtc.news.dao.TagDao" %>
+<%@ page import="com.cvtc.news.dao.impl.TagDaoImpl" %>
+<%@ page import="com.cvtc.news.model.Tag" %>
 <%@ page import="java.util.List" %><%--
   Created by IntelliJ IDEA.
   User: zhao
